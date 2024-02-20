@@ -1,0 +1,123 @@
+
+@media only screen and (min-width: 601px) and (max-width:3500px){
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+}
+.left{
+   
+    height: 100vh;
+    width: 50%;
+    float: left;
+}
+.left img{
+
+    width: 250px;
+    height: auto;
+}
+.left p{
+    font-size: 20px;
+    color: black;
+    padding-left: 25px;
+
+}
+.left .left-items{
+    padding: 30% 0px 0px 25%;
+
+}
+.right{
+ 
+    height: 100vh;
+    width: 50%;
+    float: right;
+   
+}
+.right .all-right{
+    padding: 25% 0px 0px 25%;
+
+}
+
+.right .right-items{
+    background-color: white;
+    border-radius: 5px;
+    height: 320px;
+    width: 400px;
+    padding: 20px;
+    
+}
+.right .all-right .right-items ul{
+    list-style: none;
+}
+.right .all-right .right-items ul li{
+    padding:  4px;
+}
+.right .all-right .right-items ul li .right-top{
+    width: 380px;
+    height: 45px;
+    padding: 0px 0px 0px 9px;
+    border-radius: 5px;
+    border-color: #e0e2e5;
+}
+.right .all-right .right-items ul li .right-btn{
+    width: 391px;
+    height: 45px;
+    padding: 0px 0px 0px 9px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.right .all-right .right-items ul li .right-btn:hover{
+    background-color:  #0b5bc4 ;
+}
+.right .all-right .right-items ul li a {
+    padding: 0px 0px 0px 32%;
+    font-size: 15px;
+    text-decoration: none;
+}
+.right .all-right .right-items ul li a:hover{
+    text-decoration: underline;
+    
+}
+.right .all-right .right-items ul li hr{
+  
+    margin-top: 20px;
+}
+
+.right .all-right .right-items ul li .right-buttom{
+    width: 200px;
+    height:45px ;
+    margin: 30px 0px 0px 23%;
+    border: none;
+    border-radius: 5px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right .all-right .right-items ul li .right-buttom:hover{
+    background-color: #196d08;
+    
+}
+.buttom {
+  font-size: 15px;
+  padding: 10px 0px 0px 8%;
+}
+.buttom a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.buttom span{
+    padding: 0px 0px 0px 25%;
+}
+
+
+}
